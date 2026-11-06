@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniFlow Documentation Diagrams Gallery</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #3b82f6;
+      --border: #334155;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 24px;
+    }
+    .header {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 2.25rem;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #60a5fa, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+      gap: 32px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .card-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    .card-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin-left: 12px;
+      background: rgba(59, 130, 246, 0.1);
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    .card-links a:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+    .card-body {
+      padding: 24px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      min-height: 350px;
+    }
+    .card-body img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>OmniFlow Documentation Diagrams Gallery</h1>
+    <p>All 14 Architecture, Data Flow, Sequence, and State Machine Diagrams from PROJECT_DOCUMENTATION.md</p>
+  </div>
+  <div class="grid">
+    
+      <div class="card" id="01-traditional-vs-omniflow-workflow">
+        <div class="card-header">
+          <span class="card-title">1. Traditional Workflow vs. OmniFlow Unified Ecosystem</span>
+          <div class="card-links">
+            <a href="./01-traditional-vs-omniflow-workflow.svg" target="_blank">View SVG</a>
+            <a href="./01-traditional-vs-omniflow-workflow.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./01-traditional-vs-omniflow-workflow.svg" alt="Traditional Workflow vs. OmniFlow Unified Ecosystem" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="02-technology-stack-matrix">
+        <div class="card-header">
+          <span class="card-title">2. Technology Stack & Reactive Platform Matrix</span>
+          <div class="card-links">
+            <a href="./02-technology-stack-matrix.svg" target="_blank">View SVG</a>
+            <a href="./02-technology-stack-matrix.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./02-technology-stack-matrix.svg" alt="Technology Stack & Reactive Platform Matrix" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="03-convex-reactive-vs-rest-sequence">
+        <div class="card-header">
+          <span class="card-title">3. Convex Reactive WebSocket vs. Traditional REST/GraphQL Polling</span>
+          <div class="card-links">
+            <a href="./03-convex-reactive-vs-rest-sequence.svg" target="_blank">View SVG</a>
+            <a href="./03-convex-reactive-vs-rest-sequence.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./03-convex-reactive-vs-rest-sequence.svg" alt="Convex Reactive WebSocket vs. Traditional REST/GraphQL Polling" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="04-sprint-planning-gantt-roadmap">
+        <div class="card-header">
+          <span class="card-title">4. Agile Sprint Planning & Milestone Gantt Schedule</span>
+          <div class="card-links">
+            <a href="./04-sprint-planning-gantt-roadmap.svg" target="_blank">View SVG</a>
+            <a href="./04-sprint-planning-gantt-roadmap.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./04-sprint-planning-gantt-roadmap.svg" alt="Agile Sprint Planning & Milestone Gantt Schedule" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="05-dfd-level-0-system-context">
+        <div class="card-header">
+          <span class="card-title">5. System Context Diagram (DFD Level 0)</span>
+          <div class="card-links">
+            <a href="./05-dfd-level-0-system-context.svg" target="_blank">View SVG</a>
+            <a href="./05-dfd-level-0-system-context.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./05-dfd-level-0-system-context.svg" alt="System Context Diagram (DFD Level 0)" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="06-dfd-level-1-data-flow-diagram">
+        <div class="card-header">
+          <span class="card-title">6. Detailed Data Flow Diagram (DFD Level 1)</span>
+          <div class="card-links">
+            <a href="./06-dfd-level-1-data-flow-diagram.svg" target="_blank">View SVG</a>
+            <a href="./06-dfd-level-1-data-flow-diagram.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./06-dfd-level-1-data-flow-diagram.svg" alt="Detailed Data Flow Diagram (DFD Level 1)" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="07-system-use-case-diagram">
+        <div class="card-header">
+          <span class="card-title">7. System Use Case & Role Interaction Diagram</span>
+          <div class="card-links">
+            <a href="./07-system-use-case-diagram.svg" target="_blank">View SVG</a>
+            <a href="./07-system-use-case-diagram.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./07-system-use-case-diagram.svg" alt="System Use Case & Role Interaction Diagram" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="08-system-architecture-modules">
+        <div class="card-header">
+          <span class="card-title">8. OmniFlow End-to-End System Architecture</span>
+          <div class="card-links">
+            <a href="./08-system-architecture-modules.svg" target="_blank">View SVG</a>
+            <a href="./08-system-architecture-modules.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./08-system-architecture-modules.svg" alt="OmniFlow End-to-End System Architecture" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="09-database-schema-erd">
+        <div class="card-header">
+          <span class="card-title">9. Multi-Tenant Database Schema & Entity Relationship Diagram (ERD)</span>
+          <div class="card-links">
+            <a href="./09-database-schema-erd.svg" target="_blank">View SVG</a>
+            <a href="./09-database-schema-erd.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./09-database-schema-erd.svg" alt="Multi-Tenant Database Schema & Entity Relationship Diagram (ERD)" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="10-workspace-authorization-sequence">
+        <div class="card-header">
+          <span class="card-title">10. Workspace Authorization & Context Mount Flow</span>
+          <div class="card-links">
+            <a href="./10-workspace-authorization-sequence.svg" target="_blank">View SVG</a>
+            <a href="./10-workspace-authorization-sequence.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./10-workspace-authorization-sequence.svg" alt="Workspace Authorization & Context Mount Flow" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="11-gmail-smtp-invitation-sequence">
+        <div class="card-header">
+          <span class="card-title">11. Transactional Gmail SMTP Invitation Sequence</span>
+          <div class="card-links">
+            <a href="./11-gmail-smtp-invitation-sequence.svg" target="_blank">View SVG</a>
+            <a href="./11-gmail-smtp-invitation-sequence.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./11-gmail-smtp-invitation-sequence.svg" alt="Transactional Gmail SMTP Invitation Sequence" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="12-sprint-lifecycle-state-machine">
+        <div class="card-header">
+          <span class="card-title">12. Agile Sprint Lifecycle State Machine</span>
+          <div class="card-links">
+            <a href="./12-sprint-lifecycle-state-machine.svg" target="_blank">View SVG</a>
+            <a href="./12-sprint-lifecycle-state-machine.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./12-sprint-lifecycle-state-machine.svg" alt="Agile Sprint Lifecycle State Machine" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="13-task-status-lifecycle-state-machine">
+        <div class="card-header">
+          <span class="card-title">13. Kanban Task Status Lifecycle State Machine</span>
+          <div class="card-links">
+            <a href="./13-task-status-lifecycle-state-machine.svg" target="_blank">View SVG</a>
+            <a href="./13-task-status-lifecycle-state-machine.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./13-task-status-lifecycle-state-machine.svg" alt="Kanban Task Status Lifecycle State Machine" loading="lazy" />
+        </div>
+      </div>
+    
+
+      <div class="card" id="14-ui-navigation-architecture">
+        <div class="card-header">
+          <span class="card-title">14. User Interface Design & Navigation Architecture</span>
+          <div class="card-links">
+            <a href="./14-ui-navigation-architecture.svg" target="_blank">View SVG</a>
+            <a href="./14-ui-navigation-architecture.png" download>Download PNG</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="./14-ui-navigation-architecture.svg" alt="User Interface Design & Navigation Architecture" loading="lazy" />
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>
