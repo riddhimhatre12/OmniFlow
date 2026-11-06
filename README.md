@@ -18,6 +18,14 @@ Enterprise Multi-Workspace SaaS Platform combining Project Management, Team Coll
 - **Live Metrics & Activities**: Real-time KPI cards and workspace audit event feeds.
 - **Workspace Roles Console**: Custom permissions matrix across Workspace, Project, and Task scopes.
 
+## Architecture & System Documentation
+Comprehensive technical documentation, ERDs, sequence diagrams, and flowcharts are available:
+- 📖 [Comprehensive Technical Documentation (PROJECT_DOCUMENTATION.md)](./PROJECT_DOCUMENTATION.md)
+- 🖼️ [Visual Architecture Diagrams Catalog (DOCUMENTATION_DIAGRAMS.md)](./DOCUMENTATION_DIAGRAMS.md)
+- 🌐 [Interactive Diagrams Gallery (gallery.html)](./docs/images/gallery.html)
+
+![Architecture Overview](./docs/images/01-traditional-vs-omniflow-workflow.svg)
+
 ## Getting Started
 
 ### 1. Install Dependencies
